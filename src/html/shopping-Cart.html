@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>我的购物车-e万家</title>
+		<link rel="shortcut icon" type="image/x-icon" href="../css/img/title/favicon.ico" />
+		<!--引入重置样式-->
+		<link rel="stylesheet" type="text/css" href="../css/reset.css"/>
+		<!--引入本页样式-->
+		<link rel="stylesheet" type="text/css" href="../css/cart.css"/>
+			
+		
+		<!--引入jquery库-->
+		<script src="../assets/jquery-1.12.0.js"></script>
+		<!--引入cookie函数-->
+		<script src="../js/cookieBase.js"></script>
+		<!--引入本页js文件-->
+		<script src="../js/cart.js"></script>
+	</head>
+	<body>
+		
+		<!--头部-->
+		<div class="header">
+			<!--网页头部导航-->
+			<div class="header-nav">
+				<ul>
+					<li class="address">我在广州</li>
+					<li style="margin-right: 30px;">欢迎来<span style="color:#E04040;">e万家</span></li>
+					<li class="sign-in"><a href="sign-in.html">登录</a></li>
+					<li>|</li>
+					<li class="register"><a href="register.html">注册</a></li>
+					<li>|</li>
+					<li><a href="#">收藏夹</a></li>
+					<li>|</li>
+					<li><a href="#">我的订单</a></li>
+				</ul>
+			</div>
+			<!--网页logo-->
+			<div class="header-logo">
+				<div class="logo">
+	    			<a href="../index.html" target="_blank"><img src="../css/img/header/ewj-Logo.png"/></a>
+		      </div>
+		      <div class="logo2">
+		      	<img src="../css/img/header/logo2.png"/>
+		      </div>
+			</div>
+		</div>
+		
+		<!--购物车商品列表内容-->
+		<div class="content">
+			<div class="continue-shopping">
+				购物车<a href="list-of-goods.html">继续购物>></a>
+			</div>
+			
+			<!--商品列表区-->
+			<div class="content-center">
+				<div class="goodsList-header">
+					全部商品<span>0</span>件
+					<ul>
+						<li style="padding-right:202px;"><input type="checkbox" />全选</li>
+						<li style="padding-right: 183px;">商品</li>
+						<li style="padding-right:97px;">规格属性</li>
+						<li style="padding-right: 93px;">单价(元)</li>
+						<li style="padding-right: 93px;">数量</li>
+						<li style="padding-right:90px;">商品小计(元)</li>
+						<li>操作</li>
+					</ul>
+				</div>
+				<div class="goodsList-content">
+					<!--<ul id="G0001">
+						<li><input type="checkbox"/></li>
+						<li><img src="../img/goodsList/12900452_220X220.jpg"/></li>
+						<li><a href="#">本爽快健美260种酵素+胶原蛋白 60粒日本爽快健美260种酵素+胶原蛋白 60粒本爽快健美260种酵素+胶原蛋白 60粒</a></li>
+						<li style="padding-right:210px;">&ensp;</li>
+						<li price="109">￥109</li>
+						<li class="numBtn">
+							<button>-</button>
+							<input type="text" value="1" />
+							<button>+</button>
+						</li>
+						<li style="padding-left: 40px;">￥109</li>
+						<li style="padding-left: 100px;"><b>删除</b></li>
+					</ul>-->
+				</div>
+			</div>
+			
+			<!--提交订单-->
+			<div class="content-foot">
+				<div class="slectAll">
+					<input type="checkbox"/>全选
+					<span>已选<i>0</i>件商品</span>|<span>总重量5kg></span><br />
+					新税制取消免税门槛，订单金额2000元内不必分单
+				</div>
+				<div class="subMit-btn">
+					商品总价￥<span>0</span>
+					<button>结算</button>
+				</div>
+			</div>
+		</div>
+		
+		<!--脚部-->
+		<div class="footer">
+			<div class="footer-content">
+				<a href="http://www.ewj.com/help.html?id=a_200001" target="_blank">关于我们</a>｜
+                <a href="http://www.ewj.com/help.html?id=a_150000" target="_blank">联系我们</a>｜
+                <a href="http://m.ewj.com/" target="_blank">触屏版</a>
+                <span style="color:#878d9a;">
+                    Copyright@华润万家有限公司  粤ICP备05036369号-4   ewj.com 版权所有
+    			</span>
+			</div>
+		</div>
+	</body>
+</html>

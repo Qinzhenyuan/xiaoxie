@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>用户登录 - e万家 - 爱生活.e万家</title>
+		<link rel="shortcut icon" type="image/x-icon" href="../css/img/title/favicon.ico"/>
+		
+		<link rel="stylesheet" type="text/css" href="../css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/sign-in.css"/>
+		
+		<script src="../assets/jquery-1.12.0.js"></script>
+		<script src="../js/cookieBase.js"></script>
+		<script src="../js/sign-in.js"></script>
+	</head>
+	<body>
+		<!--实现通过cookie保存的注册用户的信息来登录-->
+		
+		<!--头部内容-->
+		<div class="header-sign-in">
+			<div class="header-sign-in-content">
+				<div class="logo">
+		    			<a href="../index.html" target="_blank"><img src="../css/img/header/ewj-Logo.png"/></a>
+		        </div>
+		        <div class="help-center">
+				<span>您好，欢迎您来到华润e万家！</span><span>|</span>
+				<a href="#">帮助中心</a>
+		        </div>
+			</div>
+		</div>
+		
+		<!--主要内容-->
+		<div class="center-sign-in">
+			<div class="center-sign-in-content">
+				<div class="panelHd">
+					<span>用户登录</span>
+					<a href="register.html">新用户注册</a>
+				</div>
+				<div class="panelBd">
+					<a href="details-of-goods.html"><img src="../img/15550510.jpg"/></a>
+				</div>
+				<div class="userSignIn">
+					<form action="../index.html" method="get">
+						<p class="userName">
+							<label>登录名：</label>
+							<input type="text" placeholder="邮箱/用户名/已验证手机"/>
+							<span class="info"></span>
+						</p>
+						<p class="psd">
+							<label>密码：</label>
+							<input type="password" placeholder="请输入您的密码"/>
+							<span class="info"></span>
+						</p>
+						<p class="checkCode" >
+							<label>验证码：</label>
+							<input type="text"  placeholder="请填写验证码"/>
+                            <img /><a>看不清，换一张？</a>
+							<span class="info"></span>
+						</p>
+						<p class="autoSign">
+							<label>&ensp;</label>
+							<input type="checkbox" />
+							<span>七天免登陆登录</span>
+							<a href="#">忘记密码</a>
+						</p>
+						<p class="subMit">
+							<label>&ensp;</label>
+						    <input type="submit"  value="登录"/>
+						</p>
+					</form>
+				</div>
+			</div>
+		</div>
+		
+		<!--脚页部分-->
+		<div class="footer-sign-in">
+			<div class="footer-sign-in-content">
+				<a href="http://www.ewj.com/help.html?id=a_200001" target="_blank">关于我们</a>｜
+                <a href="http://www.ewj.com/help.html?id=a_150000" target="_blank">联系我们</a>｜
+                <a href="http://m.ewj.com/" target="_blank">触屏版</a>
+                <span style="color:#878d9a;">
+                    Copyright@华润万家有限公司  粤ICP备05036369号-4   ewj.com 版权所有
+    			</span>
+			</div>
+		</div>
+	</body>
+</html>

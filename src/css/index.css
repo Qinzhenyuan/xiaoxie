@@ -1,0 +1,260 @@
+/*首页的样式*/
+
+/*********吸顶导航条样式*********/
+.ceilig-nav{
+	width: 1190px;
+	height: 56px;
+	background: white;
+	border-bottom: 1px solid #c2c1c1;
+	box-shadow: 0 0 10px #C2C1C1;
+	position: fixed;
+	top: 0;
+	z-index: 50;
+	display: none;
+	}
+/*吸顶菜单导航栏*/
+.ceilig-nav ul{
+	float: left;
+	height: 56px;
+	}
+.ceilig-nav ul li{
+	float: left;
+	height: 41px;
+	padding-top: 15px;
+	}
+.ceilig-nav ul li a{
+	display:inline-block;
+	padding:0 10px;
+	text-align: center;
+	height:20px;
+	font-size: 14px;
+	line-height: 20px;
+	color: #848484;
+	border-right:1px solid #c5c5c5;
+	}
+.ceilig-nav ul li a:hover{
+	color: #E60000;
+	}
+/*吸顶菜单搜索框*/
+.ceilig-nav form{
+	float: right;
+	margin: 5px 10px;
+	width: 505px;
+	height: 39px;
+	border: 1px solid #cccccc;
+	background: white;
+	}
+.ceilig-nav form input{
+	border: 0;
+	background: white;
+	height: 39px;
+	float: left;
+	width: 468px;
+	padding-left: 5px;
+	outline:0;
+	}
+.ceilig-nav form .tijiao{
+	width: 32px;
+	background: url(img/header/50472.png) no-repeat left -90px;
+	}
+
+/*********轮播图样式*********/
+.carousel{
+	background: #EEEEEE;
+	}
+
+/*********商品内容区样式*********/
+.commodity-content{
+	width:100%;
+	min-height:1000px;
+	height: auto;
+	background: #ededed;
+	padding-top:50px;
+}
+/*统一设置商品内容区每个模块的样式*/
+.commodity-content>div{
+	margin: 0 auto;
+	height: auto;
+	margin-bottom: 30px;
+}
+/*know-more为后面三个主题共有的类，在这里统一设置样式*/
+.know-more{
+	width: auto;
+	height: auto;
+	float: left;
+	margin:10px 6px 0 0;
+	position: relative;
+}
+.know-more ul{
+	position:absolute;
+	width:196px;
+	height: 192px;
+	left: 0;bottom:0;
+}
+.know-more ul li{
+	float:left;
+	width:78px;
+	height:24px;
+	text-align: center;
+	line-height: 24px;
+	border:1px solid white;
+	color:white;
+	margin:16px 8px 0 8px;
+	-webkit-transition-property: background;
+	-webkit-transition-property: color;
+    -webkit-transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease;
+}
+.know-more ul li:hover{
+	background: white;
+	color:black;
+}
+
+/*********限时抢购*********/
+.flash-sale{width: 1134px;min-height:365px;padding: 93px 28px 28px;background: #ffd93f;position: relative;}
+.flash-sale .countdown{width:640px;height: 117px;position: absolute;top: -24px;left: 273px;}
+.countdown img{float: left;}
+.countdown p{width:520px;height:64px;float: left;background: #f5c501;border-radius: 10px;margin-top: 39px;line-height: 64px;}
+.countdown p img{height:41px;border-right:1px solid #252525;margin:12px 20px 8px}
+.countdown p span{display: inline-block;width:25px;height:25px;border: 1px solid #252525;text-align: center;line-height: 25px;border-radius: 50%;margin: 0 5px;}
+/*每个容乃商品信息的li的设置*/
+.flash-sale-list li{float: left;width:276px;height:362px;background: white;margin-left: 7px;border: 1px solid #ffd93f;-webkit-transition-property: border;-webkit-transition-duration: 0.5s;-webkit-transition-timing-function: ease;}
+.flash-sale-list li:hover{border: 1px solid #E60000;}
+.flash-sale-list li a{display: block;width:258px;height:258px;padding:10px 9px 0 9px;position: relative;}
+.flash-sale-list li a span{display: block;width: 230px;height:32px;padding-left:28px;position: absolute;left: 9px;bottom:0;line-height: 32px;font-size: 12px;}
+.flash-sale-list li .text-info{width:276px;height:39px;border-bottom: 1px solid #EDEDED;position: relative;}
+.flash-sale-list li .text-info b{width: 258px;height:30px;line-height:30px;background: white;font-size: 16px;font-weight:normal;white-space:nowrap;overflow: hidden;text-overflow: ellipsis;position: absolute;left:9px;top:0;}
+.flash-sale-list li .text-info span{width:258px;height: 0px;overflow: hidden;font-size: 14px;color: #959595;z-index: 10;position: absolute;left:9px;top:39px;background: white;}
+.flash-sale-list li .price{width: 258px;padding-left:9px;height:55px;color: #E60000;font-size:22px;line-height: 55px;font-weight: bolder;}
+.flash-sale-list li .price span{color: #b2a298;font-size: 14px;text-decoration: line-through;padding: 10px;}
+
+/*********尖货推荐*********/
+.tip-goods-recommend{min-height:430px;width: 1190px;}
+.tip-goods-recommend .title{width: 1190px;height:38px;border-bottom:2px solid #E60000;}
+/*商品列表ul*/
+.tip-goods-recommend-list{width: 1190px;height: auto;padding-top:9px;}
+.tip-goods-recommend-list li{float: left;width:236px;height:380px;background: white;border: 1px solid #ededed;-webkit-transition-property: border;-webkit-transition-duration: 0.5s;-webkit-transition-timing-function: ease;}
+.tip-goods-recommend-list li:hover{border: 1px solid #E60000;}
+.tip-goods-recommend-list li a{display: block;width:218px;height:218px;padding:10px 9px 0 9px;position: relative;}
+.tip-goods-recommend-list li a span{display: block;width: 190px;height:32px;padding-left:28px;position: absolute;left: 9px;bottom:0;line-height: 32px;font-size: 12px;background: rgba(225,225,225,0.6) url(img/content/14810860.png) no-repeat left center;}
+.tip-goods-recommend-list li a .icons{position: absolute;left: 9px;top: 10px;width:54px;height: 24px;}
+.tip-goods-recommend-list li .text-info{width:236px;height:39px;border-bottom: 1px solid #EDEDED;position: relative;margin-bottom: 55px;}
+.tip-goods-recommend-list li .text-info b{width: 218px;height:30px;line-height:30px;background: white;font-size: 16px;font-weight:normal;white-space:nowrap;overflow: hidden;text-overflow: ellipsis;position: absolute;left:9px;top:0;}
+.tip-goods-recommend-list li .text-info span{width:218px;height:55px;overflow: hidden;font-size: 12px;color: #959595;z-index: 10;position: absolute;left:9px;top:39px;background: white;}
+.tip-goods-recommend-list li .price{width: 218px;padding-left:9px;height:55px;color: #E60000;font-size:22px;line-height: 55px;}
+.tip-goods-recommend-list li .price span{color: #b2a298;font-size: 14px;text-decoration: line-through;padding: 10px;}
+
+/*********上新品*********/
+.new-goods{min-height:662px;width: 1190px;}
+.new-goods .title{width: 1190px;height:38px;border-bottom:2px solid #2a71b9;}
+.new-goods-list{width: 1190px;height: auto;}
+/*商品列表ul*/
+.new-goods-list li{float: left;width:589px;height:300px;background: white;border: 1px solid #EDEDED;margin:9px 8px 0 0;-webkit-transition-property: border;-webkit-transition-duration: 0.5s;-webkit-transition-timing-function: ease;}
+.new-goods-list li:hover{border: 1px solid #E60000;}
+.new-goods-list li .goods-img{width:280px;height:280px;padding: 10px 9px;position: relative;float: left;margin-right:9px;}
+.new-goods-list li .goods-img .icons{position: absolute;left: 9px;top: 10px;width:54px;height: 24px;}
+.new-goods-list li .goods-info{width: 200px;height:283px;padding-top: 17px;float: left;}
+.new-goods-list li .goods-info span{display: block;width: 173px;height: 40px;padding-left: 27px;border-bottom: 1px solid #EDEDED;font-size: 12px;color: #555555;line-height:40px;}
+.new-goods-list li .goods-info a{display: block;width: 200px;height:34px;border-bottom: 1px solid #EDEDED;font-size: 14px;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;line-height: 34px;}
+.new-goods-list li .goods-info p{width: 200px;height:60px;padding: 10px 0 0;font-size:13px;color:#959595;overflow:hidden;margin-bottom:25px;}
+.new-goods-list li .goods-info b{color:#E60000;display: block;padding-bottom:10px;font-size:30px;}
+.new-goods-list li .goods-info button{width:180px;height:40px;background: white;border:1px solid #E60000;font-size:17px;color: #E60000;font-weight: 600;white;-webkit-transition-property: background;-webkit-transition-duration: 0.5s;-webkit-transition-timing-function: ease;}
+.new-goods-list li .goods-info button:hover{color: white;background: #E60000;}
+
+/*********跨境精选*********/
+.cross-border-select{width: 1190px;min-height: 500px;}
+.cross-border-select .title{width: 1190px;height:38px;border-bottom:2px solid #252525;position: relative;}
+.cross-border-select .title ul{height: 38px;position: absolute;top: 0;right: 0;}
+.cross-border-select .title ul li{float: left;padding: 10px 5px 0 5px;}
+.cross-border-select .title ul li a{margin: 4px 12px 4px 12px;display: inline-block;-webkit-transition-property: color;-webkit-transition-duration: 0.5s;-webkit-transition-timing-function: ease;}
+.cross-border-select-list{width:702px;height:450px;padding-top: 6px;float: left;}
+.cross-border-select-list ul li{width:347px;height:222px;float:left;background: white;border: 1px solid #EDEDED;margin: 4px 4px 0 0;-webkit-transition-property: border;-webkit-transition-duration: 0.5s;-webkit-transition-timing-function: ease;}
+.cross-border-select-list ul li:hover{border: 1px solid #E60000;}
+.cross-border-select-list li .goods-img{width:180px;height:180px;padding: 10px 9px;position: relative;float: left;margin-right:9px;}
+.cross-border-select-list li .goods-img .icons{position: absolute;left: 9px;top: 10px;width:54px;height: 24px;}
+.cross-border-select-list li .goods-info{width:135px;height:190px;padding-top: 20px;float: left;}
+.cross-border-select-list li .goods-info span{display: block;width: 115px;height: 30px;padding-left: 20px;border-bottom: 1px solid #EDEDED;font-size: 12px;color: #555555;line-height:30px;}
+.cross-border-select-list li .goods-info a{display: block;width: 135px;height:30px;border-bottom: 1px solid #EDEDED;font-size: 14px;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;line-height: 30px;}
+.cross-border-select-list li .goods-info p{width:135px;height:40px;padding: 8px 0 0;font-size:12px;color:#959595;overflow:hidden;margin-bottom:15px;}
+.cross-border-select-list li .goods-info b{color:#E60000;display: block;padding-bottom:5px;}
+.cross-border-select-list li .goods-info button{width:132px;height:27px;background: white;border:1px solid #E60000;font-size:14px;color: #E60000;font-weight: 600;-webkit-transition-property: background;-webkit-transition-duration: 0.5s;-webkit-transition-timing-function: ease;}
+.cross-border-select-list li .goods-info button:hover{color: white;background: #E60000;}
+
+/*********Enjoy City***********/
+.enjoy-city{width: 1190px;min-height: 500px;}
+.enjoy-city .title{width: 1190px;height:38px;border-bottom:2px solid #252525;position: relative;}
+.enjoy-city .title ul{height: 38px;position: absolute;top: 0;right: 0;}
+.enjoy-city .title ul li{float: left;padding: 10px 5px 0 5px;}
+.enjoy-city .title ul li a{margin: 4px 12px 4px 12px;display: inline-block;-webkit-transition-property: color;-webkit-transition-duration: 0.5s;-webkit-transition-timing-function: ease;}
+.title ul li a:hover{color: #E60000;}
+.enjoy-city-list{width:702px;height:450px;padding-top: 6px;float: left;}
+.enjoy-city-list ul li{width:347px;height:222px;float:left;background: white;border: 1px solid #EDEDED;margin: 4px 4px 0 0;-webkit-transition-property: border;-webkit-transition-duration: 0.5s;-webkit-transition-timing-function: ease;}
+.enjoy-city-list ul li:hover{border: 1px solid #E60000;}
+.enjoy-city-list li .goods-img{width:180px;height:180px;padding: 10px 9px;position: relative;float: left;margin-right:9px;}
+.enjoy-city-list li .goods-img .icons{position: absolute;left: 9px;top: 10px;width:54px;height: 24px;}
+.enjoy-city-list li .goods-info{width:135px;height:190px;padding-top: 20px;float: left;}
+.enjoy-city-list li .goods-info span{display: block;width: 115px;height: 30px;padding-left: 20px;border-bottom: 1px solid #EDEDED;font-size: 12px;color: #555555;line-height:30px;}
+.enjoy-city-list li .goods-info a{display: block;width: 135px;height:30px;border-bottom: 1px solid #EDEDED;font-size: 14px;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;line-height: 30px;}
+.enjoy-city-list li .goods-info p{width:135px;height:40px;padding: 8px 0 0;font-size:12px;color:#959595;overflow:hidden;margin-bottom:15px;}
+.enjoy-city-list li .goods-info b{color:#E60000;display: block;padding-bottom:5px;}
+.enjoy-city-list li .goods-info button{width:132px;height:27px;background: white;border:1px solid #E60000;font-size:14px;color: #E60000;font-weight: 600;-webkit-transition-property: background;-webkit-transition-duration: 0.5s;-webkit-transition-timing-function: ease;}
+.enjoy-city-list li .goods-info button:hover{color: white;background: #E60000;}
+
+/*********产地直采*********/
+.direct-mining-area{width: 1190px;min-height: 500px;}
+.direct-mining-area .title{width: 1190px;height:38px;border-bottom:2px solid #252525;position: relative;}
+.direct-mining-area .title ul{height: 38px;position: absolute;top: 0;right: 0;}
+.direct-mining-area .title ul li{float: left;padding: 10px 5px 0 5px;}
+.direct-mining-area .title ul li a{margin: 4px 12px 4px 12px;display: inline-block;-webkit-transition-property: color;-webkit-transition-duration: 0.5s;-webkit-transition-timing-function: ease;}
+.direct-mining-area-list{width:702px;height:450px;padding-top: 6px;float: left;}
+.direct-mining-area-list ul li{width:347px;height:222px;float:left;background: white;border: 1px solid #EDEDED;margin: 4px 4px 0 0;-webkit-transition-property: border;-webkit-transition-duration: 0.5s;-webkit-transition-timing-function: ease;}
+.direct-mining-area-list ul li:hover{border: 1px solid #E60000;}
+.direct-mining-area-list li .goods-img{width:180px;height:180px;padding: 10px 9px;position: relative;float: left;margin-right:9px;}
+.direct-mining-area-list li .goods-img .icons{position: absolute;left: 9px;top: 10px;width:54px;height: 24px;}
+.direct-mining-area-list li .goods-info{width:135px;height:190px;padding-top: 20px;float: left;}
+.direct-mining-area-list li .goods-info span{display: block;width: 115px;height: 30px;padding-left: 20px;border-bottom: 1px solid #EDEDED;font-size: 12px;color: #555555;line-height:30px;}
+.direct-mining-area-list li .goods-info a{display: block;width: 135px;height:30px;border-bottom: 1px solid #EDEDED;font-size: 14px;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;line-height: 30px;}
+.direct-mining-area-list li .goods-info p{width:135px;height:40px;padding: 8px 0 0;font-size:12px;color:#959595;overflow:hidden;margin-bottom:15px;}
+.direct-mining-area-list li .goods-info b{color:#E60000;display: block;padding-bottom:5px;}
+.direct-mining-area-list li .goods-info button{width:132px;height:27px;background: white;border:1px solid #E60000;font-size:14px;color: #E60000;font-weight: 600;-webkit-transition-property: background;-webkit-transition-duration: 0.5s;-webkit-transition-timing-function: ease;}
+.direct-mining-area-list li .goods-info button:hover{color: white;background: #E60000;}
+
+/*********楼梯效果样式*********/
+#stairList{
+	position: fixed;
+	left:-8px;
+	bottom: 90px;
+	width: 40px;
+	display: none;z-index: 12;
+}
+#stairList li{
+	width: 40px;
+	height:40px;
+	background: white;border-bottom:1px solid #EDEDED;
+}
+#stairList span{
+	display: block;
+	width: 40px;
+	height:40px;
+	text-align: center;line-height: 40px;
+	font-size: 16px;color: #cccccc;
+}
+#stairList a{
+	display:block;
+	width: 40px;
+	height:40px;
+	color: white;
+	background: #E60000;
+	font-size:14px;
+	line-height: 20px;
+	text-align: center;
+	display: none;
+}
+
+/********浏览历史样式*********/
+.browsing-history{
+	width:1190px;
+	height:auto;
+	min-height:30px;
+	margin: 0 auto;
+}

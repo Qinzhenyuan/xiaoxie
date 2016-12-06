@@ -1,0 +1,18 @@
+[
+    {
+        "imgUrl":"img/carouselImg/carousel-img1.jpg",
+        "hrefUrl":"http://www.ewj.com/my02.html"
+    },
+    {
+        "imgUrl":"img/carouselImg/carousel-img2.jpg",
+        "hrefUrl":"http://www.ewj.com/jy02.html"
+    },
+    {
+        "imgUrl":"img/carouselImg/carousel-img3.jpg",
+        "hrefUrl":"http://www.ewj.com/ks.html"
+    },
+    {
+        "imgUrl":"img/carouselImg/carousel-img4.jpg",
+        "hrefUrl":"http://www.ewj.com/promotion/gq.jsp"
+    }
+]

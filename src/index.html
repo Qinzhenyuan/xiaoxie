@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>爱生活，e万家—华润万家网上购物商城，在线销售生鲜、跨境精选、母婴等多品牌。央企品质，让您感受更放心、快捷的购物体验。</title>
+		<!--添加网页标题小图标-->
+		<link rel="shortcut icon" type="image/x-icon" href="css/img/title/favicon.ico" />
+		
+		<!--引入重置样式-->
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<!--引入公共样式-->
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<!--引入本页样式-->
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<!--引入插件的样式-->
+		<link rel="stylesheet" type="text/css" href="assets/myPlugins/css/jquery.myPlugins.css"/>
+		
+        <!--引入jquery库-->
+		<script src="assets/jquery-1.12.0.js"></script>
+		<!--引入插件-->
+	    <script src="assets/myPlugins/js/jquery.myPlugins.js"></script>
+		<!--引入本页js语句-->
+		<script src="js/index.js"></script>
+		<!--引入cookie封装文件-->
+		<script src="js/cookieBase.js"></script>
+	</head>
+	<body>
+		
+		<!--头部-->
+		<div class="ewj-header">
+			
+			<!--购物车、客服、回到顶部小图标-->
+			<ul class="small-icons">
+				<li class="car-icons"><a href="html/shopping-Cart.html" target="_blank"></a><span>0</span></li>
+				<li class="service-icons"></li>
+				<li class="backTop-icons"></li>
+			</ul>
+			
+			<!--头部顶端-->
+		    <div class="header-top">
+		    	<div class="header-top-content">
+		    		<ul class="header-top-list1">
+		    			<li>您好,欢迎来到<span style="color:red;font-weight: bold;">e万家</span>!</li>
+		    			<li id="sign-in"><a href="html/sign-in.html">登录</a></li>
+		    			<li class="line">&nbsp;</li>
+		    			<li id="register"><a href="html/register.html">注册</a></li>
+		    			<li><a href="html/sign-in.html">我的优惠券</a></li>
+		    			<li class="line">|</li>
+		    			<li><a href="html/sign-in.html">我的订单</a></li>
+		    			<li class="line">|</li>
+                        <li class="QR-code">
+                        	<a href="#">手机e万家</a> <!--二维码-->
+                        	<ul>
+                        		<li>
+                        			<img src="css/img/header/QR-code1.jpg"/>
+                        			<span>e万家客户端</span><br />
+                                    <span>扫描有惊喜</span>
+                        		</li>
+                        		<li>
+                        			<img src="css/img/header/QR-code2.jpg"/>
+                        			<span>e万家官方微信</span><br />
+                                    <span>扫描有惊喜</span>
+                        		</li>
+                        	</ul>
+                        </li>	
+		    		</ul>	
+                    <ul class="header-top-list2">
+		    			<li class="line">|</li>
+		    			<li class="zhicai"><a href="#">大客户阳光直采频道</a></li>
+		    			<li class="line">|</li>
+		    			<li class="service"><a href="html/sign-in.html">在线客服</a></li>
+		    			<li class="line">|</li>
+		    			<li><a href="html/sign-in.html" target="_blank">帮助中心</a></li>
+		    			<li class="line">|</li>
+		    			<li><a href="html/sign-in.html" target="_blank" style="color: red;">VIP提货券</a></li>
+		    			<li class="line">|</li>
+		    			<li><a href="html/sign-in.html" target="_blank" style="color: red;">消费者告知书</a></li>
+		    			<li class="line">|</li>
+		    			<li><a href="#" target="_blank">收藏本站</a></li>
+		    		</ul>
+		    	</div>
+		    </div>
+		    
+		    <!--头部中间-->
+		    <div class="header-center">
+		    	<div class="header-center-content">
+		    		<!--logo-->
+		    		<div class="header-center-logo">
+		    			<a href="index.html" target="_blank"><img src="css/img/header/ewj-Logo.png"/></a>
+		    		</div>
+		    		<!--搜索框及热词-->
+		    		<div class="header-center-search">
+		    			<form>
+		    				<input type="text" id="txt" /><input type="submit" value="" id="sub" />
+		    			</form>
+		    			<span>热门：</span>
+		    			<a href="html/list-of-goods.html" target="_blank">美国小蜜蜂</a>
+		    			<a href="html/list-of-goods.html" target="_blank">运动手环</a>
+		    			<a href="html/list-of-goods.html" target="_blank">阿妈的好汤料</a>
+		    			<a href="html/list-of-goods.html" target="_blank">雪肌精</a>
+		    		</div>
+		    		<!--购物车链接处-->
+		    		<div class="header-center-car">
+		    			<a href="html/shopping-Cart.html">购物车<span style="color: red;font-weight:bolder ;"> 0 </span>件商品</a>
+		    		</div>
+		    	</div>
+		    </div>
+
+		    <!--头部底端：商品种类导航栏-->
+		    <div class="header-btm">
+		    	<div class="header-btm-content">
+		    		<ul class="nav-list">
+		    			<li id="goods-sort">
+		    				<a href="#">商品分类</a>
+		    				<!--二级导航栏：访问服务器数据生成该二级菜单-->
+		    				<ul class="subList">
+		    				</ul>
+		    				<!--显示每个商品主题的下级菜单的盒子-->
+		    				<div></div>
+		    			</li>
+		    			<li id="first-page"><a href="index.html">首页</a></li>
+		    			<li><a href="index.html">Enjoy City</a></li>
+		    			<li><a href="index.html">跨境购</a></li>
+		    		</ul>
+		    	</div>
+		    </div>
+		</div>
+		
+	    <!--引入获取头部js文件，获取cookie动态生成用户名以及购物车商品件数，搜索框跳转功能，生成导航菜单等内容-->
+		<script src="js/index-header.js"></script>
+		
+		<!--吸顶导航条-->
+		<div class="ceilig-nav">
+			<!--子级导航条-->
+			<ul>
+				<li><a href="html/list-of-goods.html" target="_blank">吃蟹好季</a></li>                
+                <li><a href="html/list-of-goods.html" target="_blank">跨境婴幼奶粉</a></li>                
+                <li><a href="html/list-of-goods.html" target="_blank">澳佳宝</a></li>
+                <li><a href="html/list-of-goods.html" target="_blank" style="border: none;">佐敦零食</a></li>
+			</ul>
+			<!--搜索框-->
+			<form>
+				<input type="text" /><input type="submit" value="" class="tijiao"/>
+			</form>
+		</div>
+		
+		<!--轮播图：访问json文件加载图片，加载完后使用插件开始轮播-->
+		<div class="carousel" style="width: 1900px;height: 443px;">
+			<!--先写入总体结构-->
+			<ul>
+				<li><a href="#"><img src="" target='_blank' /></a></li>
+				<li><a href="#"><img src="" target='_blank' /></a></li>
+				<li><a href="#"><img src="" target='_blank' /></a></li>
+				<li><a href="#"><img src="" target='_blank' /></a></li>
+			</ul>
+		</div>
+		
+		<!--首页主要的商品信息-->
+		<div class="commodity-content">
+			
+			<!--主题：限时抢购-->
+			<div class="flash-sale" theme="限时抢购">
+				<!--倒计时-->
+				<div class="countdown">
+					<img src="img/content/14840057.png"/>
+					<p><img src="img/content/14840035.png"/>
+					剩余时间：
+					<span>0</span><span>0</span>时
+					<span>0</span><span>0</span>分
+					<span>0</span><span>0</span>秒
+					</p>
+				</div>
+				<!--商品列表结构，商品信息请求json文件之后生成-->
+				<ul class="flash-sale-list">
+					<li style="margin-left: 0;">
+					</li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
+			
+			<!--主题：尖货推荐-->
+			<div class="tip-goods-recommend" theme="尖货推荐">
+				<div class="title"><!--主题logo-->
+					<a href="#"><img src="img/content/14840028.png"/></a>
+				</div>
+			<!--商品列表结构，商品信息请求json文件之后生成-->
+				<ul class="tip-goods-recommend-list">
+					<li>
+						<a target="_blank">
+							<img />
+							<span>万家精选</span>
+							<img src="css/img/content/14810859.png" class="icons" />
+						</a>
+						<p class="text-info">
+							<b></b>
+							<span></span>
+						</p>
+						<p class="price"></p>
+					</li>
+					<li>
+						<a target="_blank">
+							<img />
+							<span>万家精选</span>
+							<img src="css/img/content/14810859.png" class="icons" />
+						</a>
+						<p class="text-info">
+							<b></b>
+							<span></span>
+						</p>
+						<p class="price"></p>
+					</li>
+					<li>
+						<a target="_blank">
+							<img />
+							<span>万家精选</span>
+							<img src="css/img/content/14810859.png" class="icons" />
+						</a>
+						<p class="text-info">
+							<b></b>
+							<span></span>
+						</p>
+						<p class="price"></p>
+					</li>
+					<li>
+						<a target="_blank">
+							<img />
+							<span>万家精选</span>
+							<img src="css/img/content/14810859.png" class="icons" />
+						</a>
+						<p class="text-info">
+							<b></b>
+							<span></span>
+						</p>
+						<p class="price"></p>
+					</li>
+					<li>
+						<a target="_blank">
+							<img />
+							<span>万家精选</span>
+							<img src="css/img/content/14810859.png" class="icons" />
+						</a>
+						<p class="text-info">
+							<b></b>
+							<span></span>
+						</p>
+						<p class="price"></p>
+					</li>
+				</ul>
+			</div>
+			
+			<!--主题：上新品-->
+			<div class="new-goods" theme="上新品">
+				<div class="title"> <!--主题logo-->
+					<a href="#"><img src="img/content/14840058.png"/></a>
+				</div>
+				<!--商品列表结构，商品信息请求json文件之后生成-->
+				<ul class="new-goods-list">
+					<li>
+						<div class="goods-img">
+							<a target="_blank"><img /></a>
+							<img src="css/img/content/14810858.png" class="icons" />
+						</div>
+						<div class="goods-info">
+							<span></span>
+							<a  target="_blank"></a>
+							<p></p>
+							<b></b>
+							<button>加入购物车</button>
+						</div>
+					</li>
+					<li style="margin-right:0;">
+						<div class="goods-img">
+							<a target="_blank"><img /></a>
+							<img src="css/img/content/14810858.png" class="icons" />
+						</div>
+						<div class="goods-info">
+							<span></span>
+							<a  target="_blank"></a>
+							<p></p>
+							<b></b>
+							<button>加入购物车</button>
+						</div>
+					</li>
+					<li>
+						<div class="goods-img">
+							<a target="_blank"><img /></a>
+							<img src="css/img/content/14810858.png" class="icons" />
+						</div>
+						<div class="goods-info">
+							<span></span>
+							<a  target="_blank"></a>
+							<p></p>
+							<b></b>
+							<button>加入购物车</button>
+						</div>
+					</li>
+					<li style="margin-right:0;">
+						<div class="goods-img">
+							<a target="_blank"><img /></a>
+							<img src="css/img/content/14810858.png" class="icons" />
+						</div>
+						<div class="goods-info">
+							<span></span>
+							<a  target="_blank"></a>
+							<p></p>
+							<b></b>
+							<button>加入购物车</button>
+						</div>
+					</li>
+				</ul>
+			</div>
+			
+			<!--主题：跨境精选-->
+			<div class="cross-border-select" theme="跨境精选">
+				<div class="title">
+					<a href="#"><img src="img/content/15210019.png"/></a>
+					<!--主题导航栏-->
+					<ul>
+						<li><a href="http://www.ewj.com/product_list.jsp?columnId=c_50170&#38;otherColumn=c_920649" target="_blank">个护美妆</a>|</li>
+						<li><a href="http://www.ewj.com/product_list.jsp?columnId=c_50111&#38;otherColumn=c_920649" target="_blank">母婴呵护</a>|</li>
+						<li><a href="http://www.ewj.com/product_list.jsp?columnId=c_590028&#38;otherColumn=c_920649" target="_blank">营养保健</a>|</li>
+						<li><a href="http://global.ewj.com/product_list.jsp?columnId=c_610001" target="_blank">精选食品</a>|</li>
+						<li><a href="http://www.ewj.com/product_list.jsp?columnId=c_410000&#38;otherColumn=c_920649" target="_blank">家居日用</a></li>
+					</ul>
+				</div>
+				<!--了解主题更多-->
+				<div class="know-more">
+					<a href="http://global.ewj.com/"><img src="img/content/15400232.png"/></a>
+					<ul>
+						<li>嘉宝辅食</li>
+						<li>家庭清洁</li>
+						<li>美容养颜</li>
+						<li>补水面膜</li>
+					</ul>
+				</div>
+				<div class="know-more">
+					<a href="about:blank"><img src="img/content/15400231.png"/></a>
+				</div>
+				
+				<!--商品列表结构-->				
+				<div class="cross-border-select-list">
+					<ul>
+						<li>
+							<div class="goods-img">
+								<a target="_blank"><img /></a>
+								<img src="css/img/content/14810858.png" class="icons" />
+							</div>
+							<div class="goods-info">
+								<span></span>
+								<a  target="_blank"></a>
+								<p></p>
+								<b></b>
+								<button>加入购物车</button>
+							</div>
+						</li>
+						<li style="margin-right:0;">
+							<div class="goods-img">
+								<a target="_blank"><img /></a>
+								<img src="css/img/content/14810858.png" class="icons" />
+							</div>
+							<div class="goods-info">
+								<span></span>
+								<a  target="_blank"></a>
+								<p></p>
+								<b></b>
+								<button>加入购物车</button>
+							</div>
+						</li>
+						<li>
+							<div class="goods-img">
+								<a target="_blank"><img /></a>
+								<img src="css/img/content/14810858.png" class="icons" />
+							</div>
+							<div class="goods-info">
+								<span></span>
+								<a  target="_blank"></a>
+								<p></p>
+								<b></b>
+								<button>加入购物车</button>
+							</div>
+						</li>
+						<li style="margin-right:0;">
+							<div class="goods-img">
+								<a target="_blank"><img /></a>
+								<img src="css/img/content/14810858.png" class="icons" />
+							</div>
+							<div class="goods-info">
+								<span></span>
+								<a  target="_blank"></a>
+								<p></p>
+								<b></b>
+								<button>加入购物车</button>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			
+			<!--主题：Enjoy City-->
+			<div class="enjoy-city" theme="Enjoy City">
+				<div class="title"><!--主题logo-->
+					<a href="#"><img src="img/content/15210017.png"/></a>
+					<ul> <!--主题小导航-->
+						<li><a href="http://www.ewj.com/product_list.jsp?columnId=c_570012" target="_blank">吃享主义</a>|</li>
+						<li><a href="http://www.ewj.com/product_list.jsp?columnId=c_1020011" target="_blank">心水好物</a>|</li>
+						<li><a href="http://www.ewj.com/product_list.jsp?columnId=c_50141" target="_blank">安全护驾</a>|</li>
+						<li><a href="http://www.ewj.com/product_list.jsp?columnId=c_590026" target="_blank">茶歇精品</a></li>
+					</ul>
+				</div>
+				<!--点击了解主题-->
+				<div class="know-more">
+					<a href="http://www.ewj.com/ec.html"><img src="img/content/15400235.png"/></a>
+					<ul>
+						<li>华润五丰</li>
+						<li>净水世家</li>
+						<li>温馨床品</li>
+						<li>厨房焕新</li>
+						<li>宝贝天地</li>
+						<li>地方美食</li>
+					</ul>
+				</div>
+				<div class="know-more">
+					<a href="about:blank"><img src="img/content/15220178.png"/></a>
+				</div>
+				<!--商品列表结构-->
+				<div class="enjoy-city-list">
+					<ul>
+						<li>
+							<div class="goods-img">
+								<a target="_blank"><img /></a>
+								<img src="css/img/content/14810859.png" class="icons" />
+							</div>
+							<div class="goods-info">
+								<span></span>
+								<a  target="_blank"></a>
+								<p></p>
+								<b></b>
+								<button>加入购物车</button>
+							</div>
+						</li>
+						<li style="margin-right:0;">
+							<div class="goods-img">
+								<a target="_blank"><img /></a>
+								<img src="css/img/content/14810859.png" class="icons" />
+							</div>
+							<div class="goods-info">
+								<span></span>
+								<a  target="_blank"></a>
+								<p></p>
+								<b></b>
+								<button>加入购物车</button>
+							</div>
+						</li>
+						<li>
+							<div class="goods-img">
+								<a target="_blank"><img /></a>
+								<img src="css/img/content/14810859.png" class="icons" />
+							</div>
+							<div class="goods-info">
+								<span></span>
+								<a  target="_blank"></a>
+								<p></p>
+								<b></b>
+								<button>加入购物车</button>
+							</div>
+						</li>
+						<li style="margin-right:0;">
+							<div class="goods-img">
+								<a target="_blank"><img /></a>
+								<img src="css/img/content/14810859.png" class="icons" />
+							</div>
+							<div class="goods-info">
+								<span></span>
+								<a  target="_blank"></a>
+								<p></p>
+								<b></b>
+								<button>加入购物车</button>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			
+			<!--主题：产地直采-->
+			<div class="direct-mining-area" theme="产地直采">
+				<div class="title"><!--主题logo-->
+					<a href="#"><img src="img/content/15210018.png"/></a>
+					<ul><!--主题小导航-->
+						<li><a href="http://www.ewj.com/product_list.jsp?columnId=c_590005" target="_blank">鲜果干果</a>|</li>
+                        <li><a href="http://www.ewj.com/product_list.jsp?columnId=c_590005" target="_blank">水产海鲜</a>|</li>
+                        <li><a href="http://www.ewj.com/product_list.jsp?columnId=c_590005" target="_blank">肉禽蛋品</a>|</li>
+                        <li><a href="http://www.ewj.com/product_list.jsp?columnId=c_9000" target="_blank">地方特产</a></li>                        
+					</ul>
+				</div>
+				<div class="know-more">
+					<a href="http://www.ewj.com/ugou.html"><img src="img/content/15220181.png"/></a>
+					<ul>
+						<li>大闸蟹券</li>
+						<li>香猕猴桃</li>
+						<li>湘西腊肠</li>
+						<li>澳洲甜橙</li>
+						<li>滇红石榴</li>
+						<li>北美龙虾</li>
+					</ul>
+				</div>
+				<div class="know-more">
+					<a href="about:blank"><img src="img/content/15220180.png"/></a>
+				</div>
+				<!--商品列表结构-->
+				<div class="direct-mining-area-list">
+					<ul>
+						<li>
+							<div class="goods-img">
+								<a target="_blank"><img /></a>
+								<img src="css/img/content/14810859.png" class="icons" />
+							</div>
+							<div class="goods-info">
+								<span></span>
+								<a  target="_blank"></a>
+								<p></p>
+								<b></b>
+								<button>加入购物车</button>
+							</div>
+						</li>
+						<li style="margin-right:0;">
+							<div class="goods-img">
+								<a target="_blank"><img /></a>
+								<img src="css/img/content/14810859.png" class="icons" />
+							</div>
+							<div class="goods-info">
+								<span></span>
+								<a  target="_blank"></a>
+								<p></p>
+								<b></b>
+								<button>加入购物车</button>
+							</div>
+						</li>
+						<li>
+							<div class="goods-img">
+								<a target="_blank"><img /></a>
+								<img src="css/img/content/14810859.png" class="icons" />
+							</div>
+							<div class="goods-info">
+								<span></span>
+								<a  target="_blank"></a>
+								<p></p>
+								<b></b>
+								<button>加入购物车</button>
+							</div>
+						</li>
+						<li style="margin-right:0;">
+							<div class="goods-img">
+								<a target="_blank"><img /></a>
+								<img src="css/img/content/14810859.png" class="icons" />
+							</div>
+							<div class="goods-info">
+								<span></span>
+								<a  target="_blank"></a>
+								<p></p>
+								<b></b>
+								<button>加入购物车</button>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			
+			<!--浏览历史-->
+			<div class="browsing-history">
+				<img src="css/img/footer/history.png"/>
+			</div>
+			
+		</div>
+		
+		<!--楼梯滚动效果-->
+		<ul id="stairList">
+			<li><span>抢</span><a></a></li>
+			<li><span>尖</span><a></a></li>
+			<li><span>货</span><a></a></li>
+			<li><span>1F</span><a></a></li>
+			<li><span>2F</span><a></a></li>
+			<li><span>3F</span><a></a></li>
+		</ul>
+		
+		
+		
+		<!--网页底部-->
+		<div class="ewj-foot">
+			<!--网页头部头-->
+			<div class="foot-top">
+				<div class="foot-top-content">
+					<ul>
+						<li class="f1">7X24小时营业<br>全年无休</li>
+						<li class="f2">全国服务热线<br>400-883-1984</li>
+						<li class="f3">华润配送<br>全程冷链</li>
+						<li class="f4">正品保障<br>100%正品</li>
+						<li class="f5">当日下单<br>次日到达</li>
+					</ul>
+				</div>
+			</div>
+			<!--网页底部中间内容-->
+			<div class="foot-center">
+				<div class="foot-center-content">
+					<ul>
+						<li>
+							<span class="title">购物指南</span>
+				            <a href="http://www.ewj.com/help.html?id=a_50006" target="_blank">购物流程</a>
+				            <a href="http://www.ewj.com/help.html?id=a_200009" target="_blank">验货签收</a>
+				            <a href="http://www.ewj.com/help.html?id=a_150000" target="_blank">联系客服</a>
+						</li>
+						<li>
+							<span class="title">配送信息</span>
+				            <a href="http://www.ewj.com/help.html?id=a_180000" target="_blank">配送服务</a>
+				            <a href="http://www.ewj.com/help.html?id=a_50001" target="_blank">物流查询</a>
+						</li>
+						<li>
+							<span class="title">支付方式</span>
+				            <a href="http://www.ewj.com/help.html?id=a_200008" target="_blank">在线支付</a>
+				            <a href="http://www.ewj.com/help.html?id=a_200008" target="_blank">货到付款</a>
+						</li>
+						<li>
+				            <span class="title">售后服务</span>
+				            <a href="http://www.ewj.com/help.html?id=a_200007" target="_blank">取消订单</a>
+				            <a href="http://www.ewj.com/help.html?id=a_50002" target="_blank">售后政策</a>
+				            <a href="http://www.ewj.com/help.html?id=a_50004" target="_blank">退换货政策</a>
+				            <a href="http://www.ewj.com/help.html?id=a_170000" target="_blank">消费者告知书</a>
+						</li>
+						<li>
+						    <span class="title">优惠规则</span>
+				            <a href="http://www.ewj.com/help.html?id=a_100000" target="_blank">积分规则</a>
+				            <a href="http://www.ewj.com/help.html?id=a_110000" target="_blank">优惠券</a>
+				            <a href="http://www.ewj.com/help.html?id=a_50005" target="_blank">华润预付卡</a>
+						</li>
+						<li>
+				            <span class="title">友情链接</span>
+				            <a href="http://www.crv.com.cn/" target="_blank">华润万家官网</a>
+				            <a href="http://www.crvole.com.cn/" target="_blank">ole</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!--脚页底部-->
+			<div class="foot-btm">
+				<div class="foot-btm-content">
+					<a href="http://www.ewj.com/help.html?id=a_200001" target="_blank">关于我们</a>｜
+                    <a href="http://www.ewj.com/help.html?id=a_150000" target="_blank">联系我们</a>｜
+                    <a href="http://m.ewj.com/" target="_blank">触屏版</a>
+                    <span style="color:#878d9a;">
+                        Copyright@华润万家有限公司  粤ICP备05036369号-4   ewj.com 版权所有
+        			</span>
+				</div>
+			</div>
+		</div>
+
+	</body>
+</html>

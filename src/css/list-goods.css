@@ -1,0 +1,256 @@
+.content{
+	width:100%;
+	height:auto;
+	min-height:350px;
+	background:#EDEDED;
+	/*overflow: hidden;*/
+	}
+
+/**********网页路径导航样式*********/
+.pageNav{
+	width: 1190px;
+	height: 38px;
+	padding-top: 12px;
+	margin:0 auto;
+	}
+.pageNav a{
+	color: #555555;
+	font-size:14px;
+	margin-right: 5px;
+	}
+.pageNav a:hover{
+	color: #E60000;
+	}
+.pageNav span{
+	color:#555555;
+	font-size: 14px;
+	margin-right: 5px;
+	}
+
+/*********商品列表主要内容区样式*********/
+.content-center{
+	width:1190px;
+	height:auto;
+	margin:0 auto;
+	min-height:300px;
+	overflow:hidden;
+}
+.fenlei{
+	width:250px;
+	height:60px;
+	background:#E14041;
+	font-size:22px;
+	color:white;
+	text-align:center;
+	line-height:60px;
+	float:left;
+	margin-right:20px;
+}
+
+/*********商品列表样式*********/
+.list-goods{
+	width:920px;
+	height:auto;
+    min-height:300px;
+    float:left;
+}
+/*筛选导航区样式*/
+.screenNav{
+	width:900px;
+	height:181px;
+	background:white;
+	margin-bottom:15px;
+	padding-left:20px;
+}
+.screenNav-brand,
+.screenNav-type,
+.screenNav-ml{
+	width:880px;
+	height:auto;
+	padding-top:15px;
+	min-height:33px;
+	border-bottom: 1px solid #EDEDED;
+	overflow: hidden;
+}
+.screenNav-ml{
+	border: none;
+}
+.screenNav span{
+	display:block;
+	width:90px;
+	height:33px;
+	float: left;
+	font-size:12px;
+}
+.screenNav ul{
+    float:left;
+}
+.screenNav li{
+	float:left;
+	padding:0 10px;
+	font-size: 12px;
+}
+.screenNav li:hover{
+	color: #E14041;
+}
+.screenNav li i{
+	font-style:normal;
+	color:darkgray;
+	font-size: 12px;
+}
+/*排序导航栏样式*/
+.sortNav{
+	width: 920px;
+	height:45px;
+	background: white;
+	margin-bottom: 15px;
+}
+.sortNav ul{
+	float:left;
+	margin-right: 25px;
+}
+.sortNav li{
+	width:76px;
+	height:33px;
+	float:left;
+    padding-top:12px;
+	font-size: 12px;
+}
+.sortNav li:hover{
+	background:#E14041;
+}
+.sortNav li:hover a{
+	color:white;
+	border-right:1px solid #E14041;
+}
+.sortNav li a{
+	display: block;
+	width: 75px;
+	height: 22px;
+	border-right:1px solid #7D7D7D;
+	text-align: center;
+	font-size: 14px;
+}
+.sortNav span{
+	display:inline-block;
+	padding-top:12px;
+	font-size:14px;
+}
+/*********商品列表页样式*********/
+.goods-list-page,.list{
+	width:920px;
+	height:auto;
+	min-height:55px;
+	line-height:55px;
+	text-align: center;
+	overflow: hidden;
+}
+.list li{
+	width:220px;
+	height:340px;
+	background: white;
+	margin:0 13px 15px 0;
+	float:left;
+}
+.list li .img-info{
+	display: block;
+	width:220px;
+	height:220px;
+	position:relative;
+}
+.list li .img-info span{
+	width: 193px;
+	height: 20px;
+	padding-left:27px;
+	position:absolute;
+	left:0;
+	bottom:0;
+	line-height:20px;
+	font-size:12px;
+	color:black;
+}
+.list li .text-info{
+	display: block;
+	width: 210px;
+	height:45px;
+	padding-left: 10px;
+	padding-top:5px;
+	font-size:14px;
+	line-height: 20px;
+	color:#333333;
+}
+.list li>span{
+	display: block;
+	width: 37px;
+	height:16px;
+	background: #E14041;
+	color:white;
+	border-radius:10px;
+	font-size: 11px;
+	text-align:center;
+	margin-left: 10px;
+	line-height:16px;
+}
+.price-btnCar{
+	width: 200px;
+	padding-left:10px;
+	height:50px;
+}
+.price-btnCar span{
+	font-size:20px;
+	color:#E14041;
+	line-height: 50px;
+}
+.price-btnCar button{
+	width:80px;
+	height:25px;
+	font-size:12px;
+	border:1px solid #ededed;
+    background:#fafafa;
+    outline:0;
+	margin-left: 30px;
+	-webkit-transition-property: border;
+    -webkit-transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease;
+}
+.price-btnCar button:hover{
+	border:1px solid #E14041;
+	color:#E14041;
+}
+/********商品列表页底部页码样式*********/
+.page-number{
+	width:920px;
+	height:60px;
+	padding-top:30px;
+}
+.page-number-son{
+	width:auto;
+	height:60px;
+	float:right;
+}
+.page-number-son span{
+	display: inline-block;
+	height:32px;
+	line-height:32px;
+	font-size:12px;
+	color:#999999;
+}
+.page-number-son span b{
+	color:black;
+	padding:0 3px;
+	font-weight:normal;
+}
+.page-number-son button{
+	outline:0;
+	height:30px;
+	padding:0 10px;
+	background:white;
+	border:1px solid #d7d7d7;
+	-webkit-transition-property:background-color;
+    -webkit-transition-duration:1.0s;
+    -webkit-transition-timing-function: ease;
+}
+.page-number-son button:hover{
+	background:#E14041;
+	color: white;
+}

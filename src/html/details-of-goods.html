@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>商品详情页</title>
+		<!--加载title小图标-->
+		<link rel="shortcut icon" type="image/x-icon" href="../css/img/title/favicon.ico" />
+		<!--引入重置样式-->
+		<link rel="stylesheet" type="text/css" href="../css/reset.css"/>
+		<!--引入本页样式-->
+		<link rel="stylesheet" type="text/css" href="../css/details.css"/>
+		<!--引入公共样式-->
+		<link rel="stylesheet" type="text/css" href="../css/common.css"/>
+		<!--引入插件样式-->
+		<link rel="stylesheet" type="text/css" href="../assets/myPlugins/css/jquery.myPlugins.css"/>
+		
+		<!--引入jquery库-->
+		<script src="../assets/jquery-1.12.0.js"></script>
+		<!--引入插件-->
+		<script src="../assets/myPlugins/js/jquery.myPlugins.js"></script>
+		<!--引入本页js文件-->
+		<script src="../js/details.js"></script>
+		<!--引入cookie函数-->
+		<script src="../js/cookieBase.js"></script>
+	</head>
+	<body>
+		<!--头部-->
+		<div class="ewj-header"></div>
+		<!--加载头部-->
+		<script>
+			jQuery(".ewj-header").load("header.html");
+		</script>
+		
+		<!--商品详情区-->
+		<div class="content">
+			<!--网页路径导航-->
+			<div class="pageNav">
+				<a href="../index.html">首页</a><span>></span>
+				<a href="list-of-goods.html">水产海鲜</a><span>></span>
+				<a href="list-of-goods.html">虾蟹类</a><span>></span>
+				<a href="list-of-goods.html">虾</a><span>></span>
+	            <span>【全国配送】渔鲜世海 厄瓜多尔白虾1.8K...</span> 
+			</div>
+			<!--商品详情信息区-->
+			<div class="details-info">
+				<div class="img-zoom">
+					<!--放大镜效果-->
+					<div class="fdj">
+						<img src="" />
+					</div>
+					<!--小图标-->
+					<div class="xiaotu">
+						<ul>
+							<li><img src="../img/detailsGoods/12700133_800X800.jpg"/><span></span></li>
+							<li><img src="../img/detailsGoods/12700134_800X800.jpg"/><span></span></li>
+							<li><img src="../img/detailsGoods/12700131_800X800.jpg"/><span></span></li>
+							<li><img src="../img/detailsGoods/12700130_800X800.jpg"/><span></span></li>
+							<li><img src="../img/detailsGoods/12700132_800X800.jpg"/><span></span></li>
+							<li><img src="../img/detailsGoods/12700135_800X800.jpg"/><span></span></li>
+						</ul>
+					</div>
+					<!--移动小图按钮-->
+					<span class="btnLeft"><</span>
+					<span class="btnRight">></span>
+				</div>
+				<div class="details-info-right">
+					<!--商品名称-->
+					<h3>【全国配送】渔鲜世海 厄瓜多尔白虾1.8KG/盒 南美大白虾50-60 原盒进口海鲜水产</h3>
+					<!--商品文字信息-->
+					<p>有人说无鲜勿落饭，鱼我所欲也。但我说虾我所欲也，一碗饭，一盘虾，一双筷子，一段静谧时光，
+						这等幸福生活，我心所羡。深海的苦日子早就了白虾白嫩干醇的美味，甘甜白虾带给您温馨而幸福。
+						 【渔鲜世海】品牌买满99元全国包邮，黑龙江、吉林、辽宁、西藏、新疆、内蒙古、甘肃、青海、
+						 宁夏由于地区偏远，气候原因，暂不配送。未满99元邮费见商品详情页下方。
+					</p>
+					<!--价格-->
+					<div class="goods-price">
+						价格
+						<b price="168.00">￥168.00</b>
+						<i>￥199.99</i>
+						<span class="countdown">促销剩余<i>0</i>天<i>00</i>时<i>00</i>分<i>00</i>秒</span>
+					</div>
+					<!--库存-->
+					<div class="stock">
+						<button class="number">数量：</button>
+						<button class="reduce">-</button>
+						<input type="text" value="1"/>
+						<button class="increase">+</button>
+						<span data="92">库存：92</span>
+					</div>
+					<!--加入购物车与收藏按钮-->
+					<div class="btn">
+						<button class="btnAddCar" goodsid="G0006">加入购物车</button>
+						<span class="collectionBtn">收藏</span>
+					</div>
+					<!--温馨提示信息-->
+					<p><b>【温馨提示】</b>
+						此商品除偏远地区（新疆、西藏、宁夏、青海、甘肃、内蒙暂不配送），其他地区均配送，支付后24小时发货，约3~5日为您送达。
+						生鲜商品发货后不支持订单取消或非质量问题退货。</p>
+				</div>
+			</div>
+			<!--商品详情图片区-->
+			<div class="details-img">
+				<div class="fenlei">
+					<h3>相关分类</h3>
+					<a href="list-of-goods.html">虾</a>
+					<a href="list-of-goods.html">蟹</a>
+				</div>
+				<div class="img-info">
+					<ul>
+						<li class="introduction">商品介绍</li>
+						<li>规格与包装</li>
+						<li>售后服务</li>
+						<li>评价(<span>0</span>)</li>
+						<li>商品问答</li>
+					</ul>
+					<!--商品图片集-->
+					<div class="goodsimages">
+						<img src="../img/detailsGoods/14810786.jpg"/>
+						<img src="../img/detailsGoods/14810787.jpg"/>
+						<img src="../img/detailsGoods/14810789.jpg"/>
+						<img src="../img/detailsGoods/14810790.jpg"/>
+						<img src="../img/detailsGoods/14810788.jpg"/>
+						<img src="../img/detailsGoods/14810791.jpg"/>
+						<img src="../img/detailsGoods/14810793.jpg"/>
+						<img src="../img/detailsGoods/14810794.jpg"/>
+						<img src="../img/detailsGoods/14810894.jpg"/>
+						<img src="../img/detailsGoods/14810795.jpg"/>
+						<img src="../img/detailsGoods/14810796.jpg"/>
+						<img src="../img/detailsGoods/14810797.jpg"/>
+						<img src="../img/detailsGoods/14810799.jpg"/>
+						<img src="../img/detailsGoods/14810798.jpg"/>
+						<img src="../img/detailsGoods/14810801.jpg"/>
+						<img src="../img/detailsGoods/14810800.jpg"/>
+						<img src="../img/detailsGoods/14810802.jpg"/>
+						<img src="../img/detailsGoods/15550431.jpg"/>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		<!--脚页-->
+		<div class="ewj-foot"></div>
+		<script>
+			jQuery(".ewj-foot").load("footer.html");
+		</script>
+	</body>
+</html>

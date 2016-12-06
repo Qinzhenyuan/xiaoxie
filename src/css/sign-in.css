@@ -1,0 +1,35 @@
+/*头部样式*/
+.header-sign-in{width: 100%;height: 123px;background: #f7f7f7;border-bottom: 1px solid #e4e4e4;box-shadow: 0 0 20px #e1e1e1;}
+.header-sign-in-content{width: 1190px;margin: 0 auto;height: 123px;background: #f7f7f7;}
+.logo{float: left;margin:35px 0;}
+.help-center{float: right;margin: 50px 100px 20px 0;}
+.help-center span,.help-center a{font-size: 12px;margin: 10px;}
+.help-center a:hover{color: #E60000;}
+
+/*内容样式*/
+.center-sign-in{width: 100%;height:500px;background:#ededed;padding-top: 40px;}
+.center-sign-in-content{width: 1190px;height: 480px;margin: 0 auto;background: white;box-shadow: 0 0 10px #e1e1e1;}
+.panelHd{width: 1190px;height: 50px;border-bottom: 1px solid #E4E4E4;box-shadow: 0 0 10px #E4E4E4;}
+.panelHd span,.panelHd a{display: block;float: left;padding: 0 30px;line-height: 50px;}
+.panelHd a{float: right;color: #e60000;text-decoration: underline;}
+.panelBd{width:325px;height:325px;float: left;background: red;margin:30px 100px;}
+.panelBd img{width:325px;height:325px;}
+.userSignIn{float: left;margin: 40px 0 0 20px;}
+.userSignIn p{min-height: 65px;height: auto;width: 500px;}
+.userSignIn label{display:inline-block;width: 56px;font-size: 14px;text-align: right;}
+.userName input,.psd input{height: 50px;width: 400px;border: 1px solid #BDBDBD;padding-left: 10px;font-size: 14px;}
+.checkCode input{height: 50px;width: 200px;padding-left: 10px;font-size: 14px;}
+.checkCode img{display:inline-block;width:90px;height:30px;}
+.checkCode a{font-size: 14px;float: right;line-height: 60px;padding-right: 20px;}
+.checkCode a:hover{text-decoration: underline;}
+.userSignIn .autoSign{padding-top:20px;min-height:40px;}
+.autoSign span{display: inline-block; font-size:14px;}
+.autoSign a{float: right;color: blue;text-decoration: underline;font-size:14px;padding-right: 23px;}
+.autoSign a:hover{color: #e60000;}
+.subMit input{width:415px;height:50px;background:#e04040;border: none;font-size: 22px;color: white;font-weight: bold;margin-top: -20px;}
+.userSignIn .info{display:none;width: 400px;height: 20px;font-size: 12px;color: red;padding-left:56px;}
+/*脚页样式*/
+.footer-sign-in{width: 100%;height:auto;background: #EDEDED;}
+.footer-sign-in-content{width: 1010px;height: 71px;margin: 0 auto;padding:25px 0 0 180px;background: #EDEDED;}
+.footer-sign-in-content a{display: inline-block;width:75px;height:16px;}
+.footer-sign-in-content a:hover{color: #E60000;text-decoration: underline;}

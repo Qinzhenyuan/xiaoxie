@@ -1,0 +1,357 @@
+[
+    {
+        "commodityTheme" : "限时抢购",
+        "commodityList" : [
+            {
+                "name" : "日本爽快健美260种酵素+胶原蛋白 60粒",
+                "id" : "G0001",
+                "sampleUrl" : "img/commoditys/14200039_258X258.jpg",
+                "link" : "http://www.ewj.com/product.html?id=p_4010017",
+                "information" : "富含260种酵素+胶原蛋白；低分子胶原蛋白，可修复皮肤真皮组织，减低紫外线的伤害。",
+                "price" : "139.00",
+                "discountPrice" : "99.00",
+                "bondedState" : "日本|保税",
+                "bondedStateImg" : "css/img/content/Japan.png",
+                "stock" : 160,
+                "brand" : "吉森世家"
+            },
+            {
+                "name" : "【全国配】陕西周至徐香猕猴桃2500g装（单果重约100g）",
+                "id" : "G0002",
+                "sampleUrl" : "img/commoditys/7981778_258X258.jpg",
+                "link" : "http://www.ewj.com/product.html?id=p_4370095",
+                "information" : " 果实肉肥汁多，清香鲜美,纯天然，没打防腐剂。",
+                "price" : "59.80",
+                "discountPrice" :"59.80",
+                "bondedState" : "万家精选",
+                "bondedStateImg" : "css/img/content/14810860.png",
+                "stock" : 290,
+                "brand" : "其他"
+            },
+            {
+                "name" : "【全国配送】Ocean gala 格陵兰比目鱼切身（袋装）500g 北上广深江苏浙江包邮",
+                "id" : "G0003",
+                "sampleUrl" : "img/commoditys/12290452_258X258.jpg",
+                "link" : "http://www.ewj.com/product.html?id=p_4370095",
+                "information" : "厚实而纯净雪白的肉质，略甜而细腻的口味，是名贵佳肴的选择。",
+                "price" : "108.00",
+                "discountPrice" :"88.00",
+                "bondedState" : "万家精选",
+                "bondedStateImg" : "css/img/content/14810860.png",
+                "stock" : 95,
+                "brand" : "其他"
+            },
+            {
+                "name" : "【全国配送】小熊（Bear）DDZ-118TA1电炖盅",
+                "id" : "G0004",
+                "sampleUrl" : "img/commoditys/12700435_258X258.jpg",
+                "link" : "http://www.ewj.com/product.html?id=p_3653414",
+                "information" : "选择小熊不只是选择一个产品，更是选择一种生活方式。",
+                "price" :"185.00",
+                "discountPrice" :"159.00",
+                "bondedState" : "万家精选",
+                "bondedStateImg" : "css/img/content/14810860.png",
+                "stock" : 25,
+                "brand" : "其他"
+            }
+        ]
+    },
+    {
+        "commodityTheme" : "尖货推荐",
+        "commodityList" : [
+            {
+                "name" : "【全国配送】松桂坊湘西腊肉(五花 后腿 萝卜干组合)手信套餐 1200g 五花500g*1后腿500g*1 萝卜干100g*2",
+                "id" : "G0005",
+                "sampleUrl" : "img/commoditys/12710425_218x218.jpg",
+                "link" : "http://www.ewj.com/product.html?id=p_3670101",
+                "information" : "明星腊味，荤素搭配，烹制方便",
+                "price" :"99.00",
+                "discountPrice" :"99.00",
+                "bondedState" : "万家精选",
+                "bondedStateImg" : "css/img/content/14810860.png",
+                "stock" : 84,
+                "brand" : "其他"
+            },
+            {
+                "name" : "【全国配送】渔鲜世海 厄瓜多尔白虾1.8KG/盒 南美大白虾50-60 原盒进口海鲜水产",
+                "id" : "G0006",
+                "sampleUrl" : "img/commoditys/12700133_218x218.jpg",
+                "link" : "http://www.ewj.com/product.html?id=p_3680000",
+                "information" : "选择小熊不只是选择一个产品，更是选择一种生活方式。",
+                "price" :"185.00",
+                "discountPrice" :"168.00",
+                "bondedState" : "万家精选",
+                "bondedStateImg" : "css/img/content/14810860.png",
+                "stock" : 92,
+                "brand" : "其他"
+            },
+            {
+                "name" : "【全国配送】 碧然德 FB2020B1即热净水吧",
+                "id" : "G0007",
+                "sampleUrl" : "img/commoditys/5470077_218x218.jpg",
+                "link" : "http://www.ewj.com/product.html?id=p_4310114",
+                "information" : "多效过滤技术、过滤煮沸二合一",
+                "price" :"785.00",
+                "discountPrice" :"959.00",
+                "bondedState" : "万家精选",
+                "bondedStateImg" : "css/img/content/14810860.png",
+                "stock" : 20,
+                "brand" : "其他"
+            },
+            {
+                "name" : "Jawbone UP MOVE智能追踪器 黑色梦之星",
+                "id" : "G0008",
+                "sampleUrl" : "img/commoditys/3175615_218x218.jpg",
+                "link" : "http://www.ewj.com/product.html?id=p_4210062",
+                "information" : "运动睡眠监控 蓝牙实时传送",
+                "price" :"399.00",
+                "discountPrice" :"348.00",
+                "bondedState" : "万家精选",
+                "bondedStateImg" : "css/img/content/14810860.png",
+                "stock" : 25,
+                "brand" : "其他"
+            },
+            {
+                "name" : "【全国配送】 Mino Yaki 美浓烧 日式和风陶瓷盘子调味碟菜盘套装 唐草",
+                "id" : "G0009",
+                "sampleUrl" : "img/commoditys/14821135_218x218.jpg",
+                "link" : "http://www.ewj.com/product.html?id=p_4220020",
+                "information" : "日本进口，高温烧制！水墨蓝白，东方古韵",
+                "price" :"185.00",
+                "discountPrice" :"178.00",
+                "bondedState" : "万家精选",
+                "bondedStateImg" : "css/img/content/14810860.png",
+                "stock" : 96,
+                "brand" : "其他"
+            }
+        ]
+    },
+    {
+        "commodityTheme" : "上新品",
+        "commodityList" : [
+            {
+                "name" : "欧缇丽葡萄籽保湿爽肤水200mlCaudalie Moisturizing Toner 200ml",
+                "id" : "G0010",
+                "sampleUrl" : "img/commoditys/15411601_280x280.jpg",
+                "link" : "http://www.ewj.com/product.html?id=p_4330018",
+                "information" : "含有独家成分，红酒酵母，具有天然的防御机制和保护肌肤功能，洁面后使用爽肤水可再次清洁肌肤...",
+                "price" :"185.00",
+                "discountPrice" :"149.00",
+                "bondedState" : "法国|保税",
+                "bondedStateImg" : "css/img/content/faguo.png",
+                "stock" : 81,
+                "brand" : "其他"
+            },
+            {
+                "name" : "泰国 养养牌 冬荫功浓汤面 5包/袋Yumyum TOMUM SHRIMP CRAMY FLAVOUR 5S",
+                "id" : "G0011",
+                "sampleUrl" : "img/commoditys/15401581_280x280.jpg",
+                "link" : "http://www.ewj.com/product.html?id=p_4340007",
+                "information" : "始于1972年，养养面都都是泰国本土风味的面食，养养面里面的酸夹杂着柠檬的清香和柠檬的酸爽...",
+                "price" :"18.00",
+                "discountPrice" :"16.50",
+                "bondedState" : "泰国|保税",
+                "bondedStateImg" : "css/img/content/taiguo.png",
+                "stock" : 215,
+                "brand" : "其他"
+            },
+            {
+                "name" : "小蜜蜂 宝宝天然滋润小麦杏树婴儿按摩油 118ml",
+                "id" : "G0012",
+                "sampleUrl" : "img/commoditys/15410718_280x280.jpg",
+                "link" : "http://www.ewj.com/product.html?id=p_4320011",
+                "information" : "营养丰富的杏仁核油和小麦胚芽油能滋润宝宝或大人的敏感肌肤，促进皮肤健康成长...",
+                "price" :"185.00",
+                "discountPrice" :"109.00",
+                "bondedState" : "美国|保税",
+                "bondedStateImg" : "css/img/content/America.png",
+                "stock" : 171,
+                "brand" : "其他"
+            },
+            {
+                "name" : "Brita 碧然德A壶 3.5 L XL 白色 一壶一芯",
+                "id" : "G0013",
+                "sampleUrl" : "img/commoditys/12711179_280x280.jpg",
+                "link" : "http://www.ewj.com/product.jsp?id=p_3580112",
+                "information" : "全球每天有2.5亿人同时在用的净水壶，德国王牌净化技术...",
+                "price" :"185.00",
+                "discountPrice" :"178.00",
+                "bondedState" : "德国|保税",
+                "bondedStateImg" : "css/img/content/Germany.png",
+                "stock" : 98,
+                "brand" : "其他"
+            }
+        ]
+    },
+    {
+        "commodityTheme" : "跨境精选",
+        "commodityList" : [
+            {
+                "name" : "CHANNEL Vitalumiere Aqua 青春光彩水润粉底液 SPF15 30ml (10号色",
+                "id" : "G0014",
+                "sampleUrl" : "img/commoditys/12487784_180X180.jpg",
+                "link" : "http://www.ewj.com/product.html?id=p_3670049",
+                "information" : "【香港直邮】细腻的轻薄水漾质地，令人无比...",
+                "price" :"666.00",
+                "discountPrice" :"599.00",
+                "bondedState" : "法国|直邮",
+                "bondedStateImg" : "css/img/content/faguo.png",
+                "stock" : 3,
+                "brand" : "其他"
+            },
+            {
+                "name" : "小蜜蜂 宝宝天然芦荟杏仁面霜 55g",
+                "id" : "G0015",
+                "sampleUrl" : "img/commoditys/15410758_180X180.jpg",
+                "link" : "http://www.ewj.com/product.html?id=p_4320003",
+                "information" : "能温保护宝宝及大人的肌肤，形成一层自然的...",
+                "price" :"185.00",
+                "discountPrice" :"178.00",
+                "bondedState" : "美国|保税",
+                "bondedStateImg" : "css/img/content/America.png",
+                "stock" : 154,
+                "brand" : "其他"
+            },
+            {
+                "name" : "澳大利亚 Swisse叶绿素片 100粒/瓶",
+                "id" : "G0016",
+                "sampleUrl" : "img/commoditys/15220224_180X180.jpg",
+                "link" : "http://www.ewj.com/product.html?id=p_4160033",
+                "information" : "调理肠胃，清体排毒",
+                "price" :"185.00",
+                "discountPrice" :"109.00",
+                "bondedState" : "澳大利亚|保税",
+                "bondedStateImg" : "css/img/content/Australia.png",
+                "stock" : 164,
+                "brand" : "其他"
+            },
+            {
+                "name" : "UCC 精品速溶咖啡粉（红标） 90g/罐",
+                "id" : "G0017",
+                "sampleUrl" : "img/commoditys/14620348_180X180.jpg",
+                "link" : "http://www.ewj.com/product.html?id=p_3560006",
+                "information" : "UCC咖啡，送人自用两相宜。UCC历经80多...",
+                "price" :"85.00",
+                "discountPrice" :"35.90",
+                "bondedState" : "日本|保税",
+                "bondedStateImg" : "css/img/content/Japan.png",
+                "stock" :216,
+                "brand" : "其他"
+            }
+        ]
+    },
+    {
+        "commodityTheme" : "Enjoy City",
+        "commodityList" : [
+             {
+                "name" : "【全国配送】小熊（Bear）JSQ-A10U1加湿器",
+                "id" : "G0018",
+                "sampleUrl" : "img/commoditys/12590451_180X180.jpg",
+                "link" : "http://www.ewj.com/product.html?id=p_3653443",
+                "information" : "选择小熊不只是选择一个产品，更是选择一...",
+                "price" :"105.00",
+                "discountPrice" :"89.00",
+                "bondedState" : "万家精选",
+                "bondedStateImg" : "css/img/content/14810860.png",
+                "stock" : 13,
+                "brand" : "其他"
+            },
+            {
+                "name" : "【全国配送】呷百二煎饼（花生）8入",
+                "id" : "G0019",
+                "sampleUrl" : "img/commoditys/13421615_180X180.jpg",
+                "link" : "http://www.ewj.com/product.html?id=p_3830052",
+                "information" : "【全国配】满66包邮不足66运费6元，今日受到...",
+                "price" :"185.00",
+                "discountPrice" :"178.00",
+                "bondedState" : "万家精选",
+                "bondedStateImg" : "css/img/content/14810860.png",
+                "stock" : 154,
+                "brand" : "其他"
+            },
+            {
+                "name" : "【全国配送】KanS韩束橄榄卸妆水200ml",
+                "id" : "G0020",
+                "sampleUrl" : "img/commoditys/12970750_180X180.jpg",
+                "link" : "http://www.ewj.com/product.html?id=p_4380020",
+                "information" : "净透卸妆，深层清洁，保湿，细致毛孔",
+                "price" :"185.00",
+                "discountPrice" :"29.00",
+                "bondedState" : "万家精选",
+                "bondedStateImg" : "css/img/content/14810860.png",
+                "stock" : 164,
+                "brand" : "其他"
+            },
+            {
+                "name" : "【全国配送】学饮杯420ml绿柠红",
+                "id" : "G0021",
+                "sampleUrl" : "img/commoditys/15410074_180X180.jpg",
+                "link" : "http://www.ewj.com/product.html?id=p_4330004",
+                "information" : "UCC咖啡，送人自用两相宜。UCC历经80多...",
+                "price" :"85.00",
+                "discountPrice" :"79.90",
+                "bondedState" : "万家精选",
+                "bondedStateImg" : "css/img/content/14810860.png",
+                "stock" :216,
+                "brand" : "其他"
+            }
+        ]
+    },
+    {
+        "commodityTheme" : "产地直采",
+        "commodityList" : [
+             {
+                "name" : "【全国配】牛油果6枚装（单果重约150g）",
+                "id" : "G0022",
+                "sampleUrl" : "img/commoditys/9400549_180X180.jpg",
+                "link" : "http://www.ewj.com/product.html?id=p_4370099",
+                "information" : "入口糯滑细腻，绵如乳酪般甘甜香醇。营养价值...",
+                "price" :"666.00",
+                "discountPrice" :"69.80",
+                "bondedState" : "万家精选",
+                "bondedStateImg" : "css/img/content/14810860.png",
+                "stock" : 296,
+                "brand" : "其他"
+            },
+            {
+                "name" : "【全国配】云南蒙自红石榴9枚装（单果重约250g）",
+                "id" : "G0023",
+                "sampleUrl" : "img/commoditys/5980021_180X180.JPG",
+                "link" : "http://www.ewj.com/product.html?id=p_4370094",
+                "information" : "鲜甜多汁，冷藏后口感更佳",
+                "price" :"185.00",
+                "discountPrice" :"43.80",
+                "bondedState" : "万家精选",
+                "bondedStateImg" : "css/img/content/14810860.png",
+                "stock" : 154,
+                "brand" : "其他"
+            },
+            {
+                "name" : "【全国配送】北洋海产 南美红凤尾虾31-40/lb340g",
+                "id" : "G0024",
+                "sampleUrl" : "img/commoditys/12010292_180X180.jpg",
+                "link" : "http://www.ewj.com/product.html?id=p_3570531",
+                "information" : "鲜美爽口，肉质细嫩 全国包邮，部分地区除外。",
+                "price" :"185.00",
+                "discountPrice" :"88.00",
+                "bondedState" : "万家精选",
+                "bondedStateImg" : "css/img/content/14810860.png",
+                "stock" : 164,
+                "brand" : "其他"
+            },
+            {
+                "name" : "UCC 精品速溶咖啡粉（红标） 90g/罐",
+                "id" : "G0025",
+                "sampleUrl" : "img/commoditys/14620348_180X180.jpg",
+                "link" : "http://www.ewj.com/product.html?id=p_3610100",
+                "information" : "【全国配送】Ocean gala 烟熏三文鱼...",
+                "price" :"85.00",
+                "discountPrice" :"79.90",
+                "bondedState" : "万家精选",
+                "bondedStateImg" : "css/img/content/14810860.png",
+                "stock" :216,
+                "brand" : "其他"
+            }
+        ]
+    }
+]

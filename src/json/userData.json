@@ -1,0 +1,35 @@
+[
+    {
+      "name" : "aaaaaaaa",
+      "sex" : "x",
+      "phoneNum" : "18877364657",
+      "_password" : "meiyoumima",
+      "mailBox" : "12345678@139.com",
+      "integral" : "0",
+      "securityLevel" : "低",
+      "coupon" : "1",
+      "readName" : "张三"
+    },
+    {
+      "name" : "bbbbbbbb",
+      "sex" : "o",
+      "phoneNum" : "17888647294",
+      "_password" : "youmima",
+      "mailBox" : "87654321@139.com",
+      "integral" : "100",
+      "securityLevel" : "低",
+      "coupon" : "0",
+      "readName" : "张小叶"
+    },
+    {
+      "name" : "cccccccc",
+      "sex" : "x",
+      "phoneNum" : "15733849605",
+      "_password" : "meiyoumima1234567",
+      "mailBox" : "12345678@qq.com",
+      "integral" : "1000",
+      "securityLevel" : "高",
+      "coupon" : "10",
+      "readName" : "莫仁"
+    }
+]
